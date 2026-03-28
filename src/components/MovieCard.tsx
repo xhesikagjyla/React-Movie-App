@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function MovieCard({ movie }: { movie: any }) {
   return (
     <div className="card" key={movie.id}>
